@@ -26,10 +26,10 @@ const Login = () => {
                     <h1>Welcome Back</h1>
                     <p>Sub-title text goes here</p>
                     <div className="">
-                        <input type="email" ref={emailRef} placeholder="Email Address *" className="form-control input input-bordered" />
+                        <input type="email" ref={emailRef} placeholder="Email Address *" className="form-control input input-bordered" required/>
                     </div>
                     <div className="">
-                        <input type="password" ref={passwordRef} placeholder="password *" className="form-control input input-bordered" />
+                        <input type="password" ref={passwordRef} placeholder="password *" className="form-control input input-bordered" required/>
                         <label className="label">
                         {/* <a href="#" className="label-text-alt link link-hover">Forgot password?</a> */}
                         </label>
