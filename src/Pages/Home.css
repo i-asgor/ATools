@@ -1,0 +1,17 @@
+@media (max-width: 576px) { 
+    .hero>.banner{
+        display: none;
+    }
+    .hero>.login{
+        width: 100%;
+    }
+ }
+@media (min-width: 576px) { 
+    .hero>.banner{
+        display: block;
+    }
+    .hero>.login{
+        width: 50%;
+    }
+
+ }
