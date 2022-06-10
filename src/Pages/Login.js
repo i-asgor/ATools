@@ -29,7 +29,7 @@ const Login = () => {
                         <input type="email" ref={emailRef} placeholder="Email Address *" className="form-control input input-bordered" required/>
                     </div>
                     <div className="">
-                        <input type="password" ref={passwordRef} placeholder="password *" className="form-control input input-bordered" required/>
+                        <input type="password" ref={passwordRef} placeholder="password *" className="form-control input input-bordered"/>
                         <label className="label">
                         {/* <a href="#" className="label-text-alt link link-hover">Forgot password?</a> */}
                         </label>
